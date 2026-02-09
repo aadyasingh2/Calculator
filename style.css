@@ -1,0 +1,71 @@
+body{
+    background-color: #f7e1d7;
+}
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    height: 320px;
+    border-radius: 30px;
+    width: 350px;
+    background-color: #edafb8;
+    padding: 25px;
+
+}
+.display{
+    border-radius: 15px 15px 0 0;
+    background-color: #dcdadacc;
+    height:70px ;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end; /* Pushes text to the right */
+    align-items: center;      /* Centers text vertically */
+    padding: 0 20px;          /* Prevents text from touching the edge */
+    box-sizing: border-box;
+}
+button{
+    width: 65px;
+    height:50px;
+    background-color: #4a5759;
+    border: 2px solid #4b585a;
+    color: #dedbd2;
+    border-radius: 4px;
+}
+button:hover{
+     box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+}
+button:active{
+    transform: scale(0.97);
+    background-color: #505b5c;
+}
+button:focus{
+    background-color: #505b5c;
+}
+.display>p{
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    gap: 4px;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:5px;
+}
+.specials{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.functions{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
